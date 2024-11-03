@@ -1,0 +1,172 @@
+/* Style for Sidebar */
+.sidebar {
+    background-color:  	#5D6D8E !important;
+    padding-top: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan */
+}
+.sidebar .nav-link {
+    font-size: 16px;
+    padding-left: 10px;
+    color: #5D6D8E; /* Ganti warna teks menjadi lebih terang */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.sidebar .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.996); /* Buat efek hover yang lebih halus */
+    color: #5D6D8E; /* Teks lebih terang pada hover */
+    border-radius: 5px;
+}
+.sidebar .nav-link i {
+    margin-right: 8px;
+}
+.sidebar h6 {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #5D6D8E; /* Ganti warna teks untuk heading */
+}
+.sidebar .btn {
+    width: 100%;
+    font-weight: bold;
+    background-color: #f8f9fa;
+    color: #5D6D8E;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.sidebar .btn:hover {
+    background-color: #c2c2c0;
+    color: #fff;
+}
+
+
+.content {
+    background-color: #f8f2f2;
+    min-height: 100vh;
+}
+.content h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #5D6D8E;
+}
+.content p {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Style for Icon Box */
+.sidebar .icon-box {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    
+    color: #f9f7f7;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.sidebar .nav-link {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.sidebar .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Customizing icons inside icon-box */
+.sidebar .icon-box i {
+    font-size: 18px;
+}
+
+/* Style for Dashboard Header */
+.dashboard-header h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.dashboard-header p {
+    font-size: 16px;
+    color: #555;
+}
+
+
+.card {
+    border: none;
+}
+
+.card h5 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.content h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #5D6D8E;
+    margin-top: 20px;
+}
+
+.table-responsive {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table thead th {
+    background-color: #5D6D8E;
+    color: #ffffff;
+    text-align: center;
+}
+
+.table tbody td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table button.btn {
+    margin-right: 5px;
+}
+
+/* Style for Overtime Table */
+.table thead th, .table tbody td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table thead th {
+    background-color: #5D6D8E;
+    color: #ffffff;
+}
+
+.table tbody td {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.table button.btn {
+    margin-right: 5px;
+}
+
+.table-responsive h2 {
+    color: #5D6D8E;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #5D6D8E;
+    color: #ffffff;
+    font-weight: bold;
+}
